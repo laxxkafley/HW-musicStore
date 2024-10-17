@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 export default function Hello() {
     return (<>
     <div className=" bg-pink-50 tex-black w-full h-screen flex flex-row items-center justify-center">
