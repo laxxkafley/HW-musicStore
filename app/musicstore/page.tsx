@@ -21,8 +21,8 @@
                 id: instrumentData.length > 0 ? instrumentData[instrumentData.length - 1].id + 1 : 1, // Increment ID
                 name,
                 image_url,
-                price: Number(price),
-                like: Number(like),
+                let price: Number(price),
+                let like: Number(like),
                 is_new 
             };
             setInstrumentData([...instrumentData, newInstrument]);
